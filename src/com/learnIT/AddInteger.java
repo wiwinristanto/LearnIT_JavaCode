@@ -18,6 +18,7 @@ Scanner sc = new Scanner(System.in);
 		<write your code here>
 		
 		System.out.println("Triangle area is: " + triangleArea);
+		System.out.println("Triangle area is: " + triangleArea);
 		
 		
 	}
