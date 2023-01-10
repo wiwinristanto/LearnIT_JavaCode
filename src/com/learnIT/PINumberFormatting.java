@@ -6,17 +6,11 @@ public class PINumberFormatting {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		double p = Math.PI;
-		System.out.println(p);
-		Formatter formatter = new Formatter();
-		formatter.format("%.2f", Math.PI);
-		System.out.println(formatter);
-		formatter.format("%.3f", Math.PI);
-		System.out.println(formatter);
-		formatter.format("%.4f", Math.PI);
-		System.out.println(formatter);
-		formatter.format("%.5f", Math.PI);
-		System.out.println(formatter);
+		System.out.printf("%.1f%n", Math.PI);
+		System.out.printf("%.2f%n", Math.PI);
+		System.out.printf("%.3f%n", Math.PI);
+		System.out.printf("%.4f%n", Math.PI);
+		System.out.printf("%.5f%n", Math.PI);
 
 	}
 
