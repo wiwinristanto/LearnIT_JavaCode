@@ -15,6 +15,7 @@ public class SwitchCase {
 			break;
 		case "amin":
 			System.out.println("Hallo namaku amin");
+			break;
 		default:
 			System.out.println(Input + " tidak hadir");
 			break;
