@@ -11,7 +11,7 @@ public class ForeachLoopDemo {
 			System.out.println("Number: "+number);
 		}
 		System.out.println("Sum: "+sum);
-
+		
 	}
 
 }
