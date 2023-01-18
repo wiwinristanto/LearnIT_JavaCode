@@ -39,5 +39,17 @@ public class FindMaxInt {
 		}
 		return intArray;
 	}
+	
+	// ====================== SOLUTION WITH STREAM API
+	
+		public static int findMaxIntInArrayStreamApi(int[] intArray) {
+			return Arrays.stream(intArray).max().getAsInt();
+		}
+
+		private static int[] convertStringArrayToIntArrayStreamApi(String[] stringArray) {
+			return Arrays.stream(stringArray)
+					.mapToInt(s -> Integer.valueOf(s))
+					.toArray();
+		}
 
 }
