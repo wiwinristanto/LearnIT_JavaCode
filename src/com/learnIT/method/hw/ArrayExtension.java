@@ -15,7 +15,7 @@ public class ArrayExtension {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Please, enter length of initial array: ");
 		int baseArrayLenth = sc.nextInt();
-		int[] arr = generteRandomArray(baseArrayLenth);
+		int[] arr = generateRandomArray(baseArrayLenth);
 		int[] extendedArray = extendArray(arr);
 		System.out.println("*** Initial array ***");
 		System.out.println(Arrays.toString(arr));
@@ -37,7 +37,7 @@ public class ArrayExtension {
 		return resultArray;
 	}
 
-	private static int[] generteRandomArray(int amountOfElements) {
+	public static int[] generateRandomArray(int amountOfElements) {
 		// TODO Auto-generated method stub
 		Random r = new Random();
 		int[] resultArray = new int[amountOfElements];
