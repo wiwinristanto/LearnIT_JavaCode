@@ -4,14 +4,36 @@ import java.util.Iterator;
 
 public class GenerateMatrix {
 
-	public static int[][] main(String[] args) {
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int [][]matrix = new int [3][3];
-		for (int i = 0; i < 3; i++) {
-			for (int j = 0; j < 3; j++) {
-				matrix[i][j]=i*j;
+		double [][] myarray = new double[8][8];
+		
+		for(int i = 0; i < 8; i++) {
+			for (int j = 0; j< 8; j++) {
+				myarray[i][j] = i + j;
 			}
 		}
-		return matrix;
+		
+		
+		
+		for (int i = 0; i < 8/2; i++) {
+			for(int j = 0; j < 8/2; j++) {
+//				System.out.print("j=" + j);
+//				System.out.print(" i=" + i);				
+				System.out.print(myarray [i][j]+ ", ");
+			}
+			System.out.println();
+		}
+		
+		System.out.println("program test");
+		for (int i = 0; i < 8; i++) {
+			for(int j = 0; j < 8; j++) {
+				System.out.print("j=" + j);
+				System.out.print(" i=" + i);				
+				System.out.print(myarray [i][j]+ ", ");
+			}
+			System.out.println();
+		}
+		
 	}
 }
