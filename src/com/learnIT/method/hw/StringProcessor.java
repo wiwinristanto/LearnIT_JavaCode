@@ -1,5 +1,7 @@
 package com.learnIT.method.hw;
 
+import java.util.Scanner;
+
 public class StringProcessor {
 	
 	public static final String INPUT_DATA = "Login;Name;Email" + System.lineSeparator()+
@@ -15,6 +17,8 @@ public class StringProcessor {
 		
 		System.out.println("===== Convert 2 demo =====");
 		System.out.println(convert2(INPUT_DATA));
+		
+		
 
 	}
 
