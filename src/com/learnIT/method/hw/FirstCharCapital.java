@@ -9,9 +9,8 @@ public class FirstCharCapital {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please, enter any text: ");
 		String userInput =sc.next();
-		System.out.println(userInput);
 		
-//		System.out.println(firstCharToTitleCase(userInput));
+		System.out.println(firstCharToTitleCase(userInput));
 		
 
 	}
